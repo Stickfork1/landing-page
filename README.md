@@ -1,0 +1,1 @@
+This is Odin Project's first project - Landing page
