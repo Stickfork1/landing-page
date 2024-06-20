@@ -1,0 +1,239 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: auto;
+}
+
+.header {
+    background-color: #1F2937;
+    flex-grow: 0.01;
+    display: flex;
+}
+
+.header-logo, .header-links {
+    background-color: #1F2937;
+    color: white;
+    flex: 1 1 0;
+    /* border: 2px solid brown; */
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    line-height: 45px;
+    padding-left: 200px;
+}
+
+.header-links {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 45px;
+    padding-right: 100px;
+}
+
+.link {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.one {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0.6;
+}
+
+.website-info, .website-image {
+    flex: 1 1 0;
+}
+
+.website-info {
+    padding-left: 200px;
+    margin-right: -100px;
+}
+
+.main-text {
+    color: #E5E7EB;
+    margin-top: 80px;
+    font-size: 48px;
+    font-weight: bolder;
+    width: 400px;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 400px;
+    margin-top: -40px;
+    /* border: 2px solid green; */
+}
+
+#button-one {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-bottom: 80px;
+}
+
+.website-image {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.image-text {
+    border: 2px solid grey;
+    background-color: grey;
+    height: 200px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 6;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* border: 2px solid goldenrod; */
+}
+
+.two-info, .two-examples {
+    flex: auto;
+    /* border: 2px solid aqua; */
+}
+
+.two-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    flex: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.two-examples {
+    display: flex;
+    width: 700px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.image-subtext {
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882F6;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #636366;
+    width: 150px;
+    text-align: center;
+}
+
+.example {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid greenyellow; */
+}
+
+.three {
+    background-color: #E5E7EB;
+    flex-grow: 1.1;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote, .author {
+    flex: auto;
+    /* border: 2px solid red; */
+}
+
+.quote {
+    align-self: center;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+    padding-top: 80px;
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+    align-self: center;
+    font-weight: bolder;
+    font-size: 18px;
+    width: 800px;
+    padding-bottom: 80px;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.square-container {
+    border-radius: 15px;
+    background-color: #3882F6;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.product-signup {
+    padding-left: 50px;
+    color: white;
+}
+
+.heading-three {
+    margin-bottom: -10px;
+}
+
+.button-2 {
+    align-self: center;
+    padding-left: 50px;
+    padding-right: 40px;
+}
+
+#button-two {
+    background-color: #3882F6;
+    border: solid white;
+    color: white;
+    width: 100px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.socials {
+    background-color: #1F2937;
+    color: white;
+    flex-grow: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
